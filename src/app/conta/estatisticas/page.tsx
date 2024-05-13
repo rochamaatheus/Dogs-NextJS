@@ -23,7 +23,6 @@ export default async function EstatisticasPage() {
   if (!data) return null;
   return (
     <section>
-      <h1>Estatisticas</h1>
       <ContaEstatisticas data={data} />
     </section>
   );
